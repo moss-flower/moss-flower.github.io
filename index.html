@@ -15,49 +15,62 @@
             <a href="#" class="title">Windsong</a>
         -->
     </header>
-    <h1>Sasha Unruh</h1>
-    <p>3rd year student at Norwegian University of Science and Technology (NTNU) <br>
-        You can contact me at <a href="mailto:sashau@windsong.dev">sashau@windsong.dev</a>
-    </p>
-    <a class="button-primary" href="">Visit my Github</a>
-    <a class="button-primary" href="">Resume</a>
+    <main>
+        <div class="video-container">
+            <video autoplay muted loop id="vidMeditations">
+                <source src="img/collageImages/MovingMeditationsSubmission.mp4">
+            </video>
+            <div class="overlay-content">
+                <h1>Sasha Unruh</h1>
+                <p>3rd year Software Engineering student at Norwegian University of Science and Technology (NTNU) <br>
+                    You can contact me at <a href="mailto:sashau@windsong.dev">sashau@windsong.dev</a>
+                </p>
+                <a class="button-primary" href="">Visit my Github</a>
+                <a class="button-primary" href="">Resume</a>
+            </div>
+        </div>
 
-    <h2>Selected Projects</h2>
-    <!--
-    <div class="project-block">
-        <h3><i>(Bachelor Project here)</i></h3>
-    </div>
-    <div class="project-block">
-        <h3><i>(Semester project in XR here)</i></h3>
-        </div> -->
-    <div class="project-block">
-        <h3>Non-Paper Apps: Golf (Summer 2026)</h3>
-        <p>A game project built in the Unity Engine during the summer of 2026. Let's you play golf using a game board and some dice.
-           <br>Based on <a href="https://gladdendesign.com/products/paper-apps-golf">Paper Apps Golf</a>.</p>
-        <a href="https://github.com/moss-flower/Non-PaperApps-Golf">Link (Github)</a>
-    </div>
-    <div class="project-block">
-        <h3>Character Sheet Builder (<i>Pending</i>)</h3>
-        <p>My next personal project. I want to build a system-agnostic framework in Kotlin that lets users build and manage character sheets for TTRPG characters.
-            <br>System would provide a plugin API and pre-built UI fields to allow for easier system plugin implementation.
+        <h2>Selected Projects</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Project Name</th>
+                    <th>Description</th>
+                    <th>Tools and Tech Stack</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="">Spell Cards</a></td>
+                    <td>CLI program for searching and examining DND5e spells.</td>
+                    <td>Rust with Serde, rusqlite (database), ratatui for rendering.</td>
+                </tr>
+                <tr>
+                    <td><a href="">Non-Paper Apps: Golf</a></td>
+                    <td>A 2d tile based implementation of Golf that uses a random number generator to determine shot length.</td>
+                    <td>Unity Engine (C#), Aseprite, Garage Band+Audacity</td>
+                </tr>
+                <tr>
+                    <td>
+                        Hazard And Risk Assessment Training VR Prototype
+                    </td>
+                    <td>
+                        Instructional tool made as a proof of concept for using VR technology to simplify the training process for Hazard and Risk assessments within the Oil and Gas field.
+                    </td>
+                    <td>Unity Engine, Blender, Substance Painter, Substance Designer</td>
+                </tr>
+                <tr>
+                    <td>Dicepal</td>
+                    <td>CLI tool for rolling dice. Built so I didn't have to carry dice around if I wanted to work on something TTRPG related while out and about.</td>
+                    <td>Java (original), Rust with Serde and Ratatui (in progress re-write)</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>
+            Overview of my other programming projects available <a href="">on my github</a>.<br>
+            Overview of my other miscellaneous projects available <a href="">here</a>.
         </p>
-    </div>
-    <div class="project-block">
-        <h3>Dicepal (2024-2025)</h3>
-        <p>Small program originally written in Java. Lets the user use dice-roll notation in the terminal to generate random numbers.
-            <br> Built so that I didn't have to carry dice around if I wanted to work on a TTRPG project while out and about.
-            <br> Currently rewriting it in rust as an exercise.
-        </p>
-    </div>
-    <div class="project-block">
-        <h3>Hazard and Risk Assessment Training Demo (2022-2023)</h3>
-        <p>Instructional tool built for the Meta Quest 2 VR headset, using Blender and Unity Engine.</p>
-    </div>
-    <p>
-        Overview of my other programming projects available <a href="">on my github</a>.<br>
-        Overview of my other miscellaneous projects available <a href="">here</a>.
-    </p>
-
+    </main>
     <footer>
         <address>
             Website created by Sasha Unruh <br>
